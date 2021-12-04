@@ -72,18 +72,34 @@ echo
 print_brake 70
 echo "* Pterodactyl-AutoThemes Script @ $SCRIPT_VERSION"
 echo
-echo "* Copyright (C) 2021 - 2021, MINE_XD"
-echo "* https://github.com/ambadi797/theme/"
+echo "* Copyright (C) 2021 - 2021, Ferks-FK."
+echo "* https://github.com/Ferks-FK/Pterodactyl-AutoThemes"
 echo
 echo "* This script is not associated with the official Pterodactyl Project."
 print_brake 70
 echo
 
 Backup() {
-bash <(curl -s https://raw.githubusercontent.com/ambadi797/theme/${SCRIPT_VERSION}/backup.sh)
+bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/backup.sh)
 }
 
-Ultra_Cheese() {
+Dracula() {
+bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/Dracula/build.sh)
+}
+
+Enola() {
+bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/Enola/build.sh)
+}
+
+Twilight() {
+bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/Twilight/build.sh)
+}
+
+ZingTheme() {
+bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/ZingTheme/build.sh)
+}
+
+FlancoTheme() {
 bash <(curl -s https://raw.githubusercontent.com/ambadi797/theme/${SCRIPT_VERSION}/themes/version1.x/Ultra_Cheese/build.sh)
 }
 
@@ -91,7 +107,11 @@ bash <(curl -s https://raw.githubusercontent.com/ambadi797/theme/${SCRIPT_VERSIO
 while [ "$done" == false ]; do
   options=(
     "Restore Panel Backup (Only if you have an installation problem.)"
-    "Install Ultra_Cheese (Only 1.x)"
+    "Install Dracula (Only 1.x)"
+    "Install Enola (Only 1.x)"
+    "Install Twilight (Only 1.x)"
+    "Install Zing Theme (Only 1.x)"
+    "Install Flanco Theme (Only 1.x)"
     
     
     "Cancel Installation"
@@ -99,7 +119,11 @@ while [ "$done" == false ]; do
   
   actions=(
     "Backup"
-    "Ultra_Cheese"
+    "Dracula"
+    "Enola"
+    "Twilight"
+    "ZingTheme"
+    "FlancoTheme"
     
     
     "cancel"
