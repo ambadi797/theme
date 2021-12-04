@@ -123,7 +123,7 @@ print_brake 25
 cd /var/www/pterodactyl
 mkdir -p temp
 cd temp
-curl -sSLo ZingTheme.tar.gz https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/ZingTheme/ZingTheme.tar.gz
+curl -sSLo ZingTheme.tar.gz https://github.com/ambadi797/theme/${SCRIPT_VERSION}/themes/version1.x/ZingTheme/ZingTheme.tar.gz
 tar -xzvf ZingTheme.tar.gz
 cd ZingTheme
 cp -rf -- * /var/www/pterodactyl
