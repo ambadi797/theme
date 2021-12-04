@@ -83,7 +83,7 @@ Backup() {
 bash <(curl -s https://raw.githubusercontent.com/ambadi797/theme/${SCRIPT_VERSION}/backup.sh)
 }
 
-ULATRA_CHEESE() {
+ULTRA_CHEESE() {
 bash <(curl -s https://raw.githubusercontent.com/ambadi797/theme/${SCRIPT_VERSION}/themes/version1.x/Ultra_Cheese/build.sh)
 }
 
@@ -91,7 +91,7 @@ bash <(curl -s https://raw.githubusercontent.com/ambadi797/theme/${SCRIPT_VERSIO
 while [ "$done" == false ]; do
   options=(
     "Restore Panel Backup (Only if you have an installation problem.)"
-    "ULATRA_CHEESE (Only 1.x)"
+    "Install ULTRA CHEEDSE (Only 1.x)"
     
     
     "Cancel Installation"
