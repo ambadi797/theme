@@ -123,7 +123,7 @@ print_brake 25
 cd /var/www/pterodactyl
 mkdir -p temp
 cd temp
-curl -sSLo Ultra_Cheese.tar.gz https://github.com/ambadi797/theme/${SCRIPT_VERSION}/themes/version1.x/Ultra_Cheese/Ultra_Cheese.tar.gz
+curl -sSLo Ultra_Cheese.tar.gz https://raw.githubusercontent.com/ambadi797/theme/${SCRIPT_VERSION}/themes/version1.x/Ultra_Cheese/Ultra_Cheese.tar.gz
 tar -xzvf Ultra_Cheese.tar.gz
 cd Ultra_Cheese
 cp -rf -- * /var/www/pterodactyl
