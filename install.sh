@@ -83,7 +83,7 @@ Backup() {
 bash <(curl -s https://raw.githubusercontent.com/ambadi797/theme/${SCRIPT_VERSION}/backup.sh)
 }
 
-FlancoTheme() {
+ULATRA_CHEESE() {
 bash <(curl -s https://raw.githubusercontent.com/ambadi797/theme/${SCRIPT_VERSION}/themes/version1.x/Ultra_Cheese/build.sh)
 }
 
