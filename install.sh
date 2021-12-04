@@ -80,7 +80,7 @@ print_brake 70
 echo
 
 Backup() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/backup.sh)
+bash <(curl -s https://raw.githubusercontent.com/ambadi797/theme/${SCRIPT_VERSION}/backup.sh)
 }
 
 Dracula() {
